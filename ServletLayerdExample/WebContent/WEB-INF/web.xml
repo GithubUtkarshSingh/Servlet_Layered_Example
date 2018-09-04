@@ -1,0 +1,14 @@
+<web-app>
+<display-name>StudentDaoApp</display-name>
+<welcome-file-list>
+<welcome-file>home.html</welcome-file>
+</welcome-file-list>
+<servlet>
+<servlet-name>tt</servlet-name>
+<servlet-class>com.ut.Controller.StudentControllerServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+<servlet-name>tt</servlet-name>
+<url-pattern>/St</url-pattern>
+</servlet-mapping>
+</web-app>
